@@ -1,0 +1,8 @@
+Oppgave 1 b, c og d
+
+b) Vi vil lagre sangene i en liste, fordi vi vil ha en sortert rekkefølge på instansvariablene. En spilleliste.
+Det er også mer fornuftig å bruke liste i dette tilfellet, fordi vi vil forholde oss til en verdi. Dette gjør det lettere å referere til instansene i objektet (lista).
+
+c) Dersom filen åpnes i konstruktøren, vil musikk.txt åpnes hver gang vi vil lage en ny spilleliste. Dette er ikke alltid ønskelig, og det er derfor laget en egen metode for dette "LesFraFil".
+
+d) Vi har benyttet oss av __str__ metoden for å returnere innholdet i objektet. Vi må da endre rekkefølgen på parameterene artist og titel i konstruktøren til metoden __str__, dersom rekkefølgen endres i txt-filen
