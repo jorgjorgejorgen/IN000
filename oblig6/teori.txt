@@ -1,0 +1,14 @@
+# Oppgave 2
+
+1. Hva er innkapsling? Hvorfor er det nyttig?
+- Innkapsling er et konsept i objekt orientert programmering som brukes når vi har behov for å gruppere data.
+Vi kan si at innkapsling begrenser tilgangen til metoder til ønsket objekt i programmet. En fordel med dette er at man kan forhindre feil bruk av variabler.
+
+2. Hva er grensesnittet til en klasse? Hvordan skiller det seg fra implementasjonen av
+en klasse?
+- Grensesnittet er de metodene og tjenestene vi tilbyr en klasse. Hva vi kan gjøre med klassen  Implementasjon av en klasse er selve mønsteret vi lager objektets klasse etter.
+Hvilke varabler objektene i klassen skal ha, og hvordan metodene skal utføres.
+
+3. Hva er en instansmetode (ofte kalt bare metode), og hvordan skiller metoder seg fra
+prosedyrene/funksjonene vi har jobbet med hittil?
+- En instansmetode er definert i en klasse, og bare tilgjengelig gjennom objektet i denne klassen. Dette skiller instansmetoden fra de funksjonene og prosedyrene vi tidligere har jobbet med.
